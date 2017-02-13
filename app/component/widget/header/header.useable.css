@@ -1,0 +1,6 @@
+.header-box {
+	display: -webkit-flex;
+    display: flex;
+    height: 100px;
+    background-color: pink;
+}

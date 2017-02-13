@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+}
+body {
+	background-color: #f0f3f3;
+	font-family:"宋体", "微软雅黑", "arial";
+}
+
+/*浮动*/
+.left { 
+	float: left;
+}
+.right { 
+	float: right;
+}
+
+/*清除浮动*/
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom:1;
+}    
